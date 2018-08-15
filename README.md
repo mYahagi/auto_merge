@@ -7,6 +7,7 @@ Lambdaにないモジュールは、lambda_function.pyと一緒にzip化して�
 pip install requests .
 ```
 残りは何もせずにimportさえしておけばLambdaで使えるモジュールだったはず...
+access tokenとかマージコミットする為に叩くapiのURLは環境変数に定義
 
 # 使い方
 AWS Lambdaにあげて空オブジェクトを渡してテスト実行
